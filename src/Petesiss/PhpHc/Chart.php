@@ -1,6 +1,6 @@
 <?php
 
-namespace petesiss\PhpHc;
+namespace Petesiss\PhpHc;
 
 use Petesiss\PhpHc\ChartInterface;
 
@@ -598,10 +598,10 @@ class Chart implements ChartInterface
 
     /**
      * Set a chart attribute.
-     * 
+     *
      * @param string $attribute  attribute name
      * @param array  $value      attribute value
-     * 
+     *
      * @return void
      */
     public function set($attribute, $value)
@@ -612,7 +612,7 @@ class Chart implements ChartInterface
 
     /**
      * Get a chart attribute.
-     * 
+     *
      * @param string $attribute  attribute name
      *
      * @return mixed
